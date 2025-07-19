@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Lab - Redirection</title>
+    <meta http-equiv="refresh" content="0; URL=accueil.html">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #0c2d6b;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .loader {
+            border: 5px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top: 5px solid #e6b54c;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="loader"></div>
+        <h2>Redirection en cours...</h2>
+        <p>Si vous n'êtes pas redirigé automatiquement, <a href="accueil.html" style="color: #e6b54c;">cliquez ici</a>.</p>
+    </div>
+</body>
+</html>
